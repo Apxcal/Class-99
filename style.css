@@ -1,0 +1,41 @@
+body{
+    background-color:beige;
+}
+
+#footerdiv{
+    background-color:gray;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    text-align:center;
+}
+
+h1{
+    font-family:cursive;
+    font-style:bold;
+    font-weight:600;
+}
+
+h4{
+    font-family:fantasy;
+    font-style:bold;
+    font-weight:400;
+}
+
+img{
+    border-width:20px; 
+    border-radius:10px;
+    box-shadow:0 06px 8px 0 rbga(2, 2, 2, 0.2);
+}
+
+img:hover{
+    border-radius:140px;
+    padding:15px;
+}
+
+#camera{
+    border-width:20px;
+    border-color:blue;
+    width:500px;
+    height:400px;
+}

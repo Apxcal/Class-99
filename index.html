@@ -1,0 +1,41 @@
+<html>
+
+<head>
+    <title>Collage Web App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <center>
+        <h1>Collage Web App</h1>
+        <hr>
+        <h4>Click allow to open camera as soon as the popup box appears.</h4>
+        <h3>Say the word "selfie" to take three selfies and make a collage.</h3>
+        <button onclick="start()" class="btn btn-primary">Start</button>
+        <h4>When you press the button, click on the button that says "Start", then say the word "selfie" to take three pictures and create a collage.</h4>
+        <div id="camera"></div>
+        <label>All selfies will be displayed here:</label>
+        <div id="resultShow">
+            <div id="result1">
+                <img src="https://post.healthline.com/wp-content/uploads/2020/09/Do_Apples_Affect_Diabetes_and_Blood_Sugar_Levels-732x549-thumbnail-1-732x549.jpg" style="width:30%;">
+            </div>
+            <div id="result2">
+                <img src="https://www.bourncreative.com/wp-content/uploads/2010/10/orange-780x400.jpg" style="width:30%;">
+            </div>
+            <div id="result3">
+                <img src="https://images.everydayhealth.com/images/diet-nutrition/all-about-bananas-nutrition-facts-health-benefits-recipes-and-more-rm-722x406.jpg" style="width:30%;">
+            </div>
+        </div>
+    </center>
+    <div id="footerdiv">
+        Developed by - Zavier
+    </div>
+</body>
+
+</html>
